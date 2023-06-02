@@ -1,0 +1,26 @@
+<h1>Who is in space right now? 🧑‍🚀 </h1>
+
+    <h2> <%= data['number'] %> 
+        <%= data['number'] > 1 ? 'astronauts' : 'astronaut' %> 
+    </h2>
+
+    <table>
+        <thead>
+            <tr>
+            <th>Name</th>
+            <th>Spaceship</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% data['people'].each do |astro| %>
+            <tr> 
+                <td class='astronaut'><%= astro['name'] %></td>
+                <td class='spaceship'><%= astro['craft'] %></td>
+            </tr>
+            <% end %>
+        </tbody>
+    </table>
+
+
+    
+<footer> <a href='/'>Go Back</a> </footer>

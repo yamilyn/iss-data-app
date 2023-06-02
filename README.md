@@ -1,5 +1,30 @@
 # RPF apprentice software engineer challenge
 
+******
+
+## Challenge result
+![ISS location](/public/iss-location.jpg)
+
+![Astros in space](/public/astros-in-space.jpg)
+
+### Idea
+![Wireframes](/public/idea.jpg)
+
+## Outcomes
+* The location is shown on the ISS location page.
+* The astronauts' names and crafts are displayed in a table on the astros page.
+* An endpoint is displaying 'iss_location' as a JSON content type.
+* Basic semantic HTML is used.
+* Basic CSS styles are applied.
+* A basic responsive layout is implemented for screens up to 768px in width.
+
+## Wins
+
+I had the chance to review the recommended documetation and learn more about Ruby and Sinatra.
+
+*****
+
+
 This is a little application, written in [Ruby](https://ruby-lang.org), using the [Sinatra](https://sinatrarb.com/) framework.  It allows users to see the whereabouts of the International Space Station, using the [OpenNotify APIs](http://api.open-notify.org/).
 
 The aim of the exercise is for you to demonstrate how you would talk through your code and design decisions to peers, and will be used as a prompt for further discussions. We won't ask you to write any code during the interview itself, but we might ask specific questions about the code that you show us and how you might approach work on additional features or changes.
